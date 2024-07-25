@@ -7,7 +7,7 @@ This project is intended to look at trends in evictions in New York City and to 
 I wanted to do a project that would be very different from my first project, one that would involve analyzing a large dataset and incorporate mapping and scrollytelling. I wanted to gain more experience with QGIS and ai2html, so I structured the project around these tools.
 
 ## Data Collection
-I downloaded the Evictions dataset from NYC Open Data. I also used Borough and City Council shapefiles that I downloaded from NYC Open Data for QGIS spatial analysis. I wanted to take the story a step further to look at other related housing issues, such as housing code violations, so I downloaded that data set from NYC Open Data as well.
+I downloaded the <a href="https://data.cityofnewyork.us/City-Government/Evictions/6z8x-wfk4">Evictions dataset from NYC Open Data</a>. I also used <a href="https://data.cityofnewyork.us/City-Government/Borough-Boundaries/tqmj-j8zm">Borough Boundaries</a> and <a href="https://data.cityofnewyork.us/City-Government/City-Council-Districts/yusd-j4xi">City Council shapefiles</a> that I downloaded from NYC Open Data for QGIS spatial analysis. I wanted to take the story a step further to look at other related housing issues, such as housing code violations, so I downloaded that data set from <a href="https://data.cityofnewyork.us/Housing-Development/Housing-Maintenance-Code-Violations/wvxf-dwi5/about_data">NYC Open Data</a> as well.
 
 ## Data Analysis
 I cleaned and filtered the data in a Jupyter notebook to only look at 2017 to 2023. I then analyzed using pandas to look at trends over time, as well as trends in each borough.
