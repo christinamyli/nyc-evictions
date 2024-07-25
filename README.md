@@ -12,7 +12,10 @@ I downloaded the Evictions dataset from NYC Open Data. I also used Borough and C
 ## Data Analysis
 I cleaned and filtered the data in a Jupyter notebook to only look at 2017 to 2023. I then analyzed using pandas to look at trends over time, as well as trends in each borough.
 
+For spatial analysis in QGIS, I created separate heat maps for each year, and used the City Council shapefiles to see which districts have the highest number of evictions each year. I compared this analysis to the data analysis done in Jupyter notebook.
+
 ## Data Visualization
 I did not focus as much on creative data viz for this project as my previous project - partially because I didn't think it was completely appropriate given the subject matter. But I wanted to have a cohesive design throughout, and I wanted to make it explicit that the data story focuses on housing-related issues in the Bronx, which is why I kept the colors to a minimum. I used one color to represent the Bronx, and I used that throughout the story for immediate comprehension on the part of the reader.
 
 ## Reflections
+I had some difficulty figuring out the angle for this story. I also wanted to create a map in QGIS using data from the United States Census Bureau to visualize either povery levels (or median income levels) of New York City, to verify the stats I found online about poverty rates in the Bronx. Unfortunately, I didn't have time to gather the data using the Census API (also, it's so confusing to use!) and create a map that would help better explain the high eviction rates in those particular neighborhoods in the Bronx. I also wasn't sure if the data on housing code violations was completely relevant or necessary to include, but I did find it interesting in my analysis that the same 4 council districts kept showing up in the Evictions analysis and Housing Code Violations analysis. Some further reporting could have been useful at this point to understand other contributing factors, but again, time constraints kept me from pursuing the story more. Alas!
